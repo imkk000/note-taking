@@ -3,7 +3,7 @@
 - Root account created by default, shouldn't be used or shared
 - Users are people within your organization, and can be grouped
 - Users don't have to belong to a group, and user can belong to multiple groups
-![iam](./Images/iam_users_groups.png =500x)
+![iam](./Images/iam_users_groups.png)
 
 # IAM: Permissions
 - Users or Groups can be assigned JSON documents called policies
@@ -11,12 +11,12 @@
 - In AWS you apply the least privilege principle
     - **Don't give more permissions than a user needs**
 
-![iam](./Images/iam_policies.png =300x)
+![iam](./Images/iam_policies.png)
 
 # IAM Policies inheritance
 - Policies from group that can be overridden directly policies
 
-![iam](./Images/iam_policies_inheritance.png =450x)
+![iam](./Images/iam_policies_inheritance.png)
 
 ## IAM Policies Structure
 - Consists of
@@ -31,7 +31,7 @@
     - Resource: list of resources to which the actions applied to
     - Condition: conditions for when this policy is in effect (optional)
 
-![iam](./Images/iam_policies_structure.png =350x)
+![iam](./Images/iam_policies_structure.png)
 
 ## IAM Password Policy
 - Strong passwords = higher security for the accounts
@@ -46,7 +46,7 @@
         - numbers
         - non-alphanumeric characters
 
-![ iam ](./Images/iam_password_policy.png =500x)
+![ iam ](./Images/iam_password_policy.png)
 
 ### Multi Factor Authentication (MFA)
 - Users have access to the account and can possibly change configurations or delete resources
