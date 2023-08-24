@@ -1,5 +1,9 @@
 # Purpose
 - store and modify data into a component
+- Types
+    - Application State (global) that is used by **many different components**
+    - Component State (local) that is used by **very few components**
+
 # Example
 ```javascript
 const [name, setName] = useState(initial_state);
