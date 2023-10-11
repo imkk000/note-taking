@@ -92,6 +92,8 @@
     - Lambda Function Roles
     - Roles for CloudFormation
 
+![iam](./Images/iam_roles_permissions.png)
+
 ## IAM Security Tools
 - IAM Credentials Report (account-level)
     - A report that lists all your account's users and the status of their various credentials

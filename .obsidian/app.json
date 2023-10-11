@@ -1,0 +1,10 @@
+{
+  "vimMode": true,
+  "tabSize": 2,
+  "useTab": false,
+  "showLineNumber": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "focusNewTab": false,
+  "readableLineLength": false
+}
